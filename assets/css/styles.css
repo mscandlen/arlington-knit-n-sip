@@ -145,7 +145,6 @@ td strong{font-family:var(--display);font-weight:700;font-size:.96rem}
 .calpage h1{font-size:clamp(2.4rem,8vw,4.2rem);color:var(--ink)}
 .key{display:flex;gap:8px;flex-wrap:wrap;margin:1.2rem 0 0}
 .months{display:grid;gap:clamp(22px,3vw,30px);grid-template-columns:1fr;margin-top:clamp(22px,3vw,32px)}
-@media(min-width:900px){.months{grid-template-columns:1fr 1fr}}
 .month{background:var(--cloud);border-radius:clamp(22px,3vw,32px);padding:clamp(16px,2.4vw,26px);box-shadow:0 16px 36px -26px rgba(75,46,67,.5)}
 .month h2{font-size:1.5rem;color:var(--berry);margin-bottom:.7rem}
 table.cal{min-width:0;width:100%;font-size:.82rem;table-layout:fixed}
@@ -241,7 +240,7 @@ table.cal td.past .num{opacity:.35}
 
 /* ---------- home tiles ---------- */
 .tiles{display:grid;gap:16px;grid-template-columns:1fr;margin-top:clamp(20px,3vw,32px)}
-@media(min-width:720px){.tiles{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:720px){.tiles{grid-template-columns:repeat(2,1fr)}}
 .tile{display:block;background:var(--cloud);border-radius:clamp(22px,3vw,30px);padding:clamp(20px,3vw,28px);text-decoration:none;color:var(--ink);box-shadow:0 14px 30px -22px rgba(75,46,67,.5);transition:transform .18s ease}
 .tile:hover{transform:translateY(-4px) rotate(-.6deg)}
 .tile h3{color:var(--berry);margin:.7rem 0 .35rem}
